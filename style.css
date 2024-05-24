@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(SunnyMoo.png);
+    background-size: cover;
+    font-family: Raleway;
+}
+.texto-logo {
+    text-align: center;
+    color: white;
+    width: 100px;
+}
+#main-header {
+    background-color: #45562B;
+    display: flex;
+    align-items: center;
+    height: 8vh;
+    padding: 20px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    gap: 1rem;
+}
+#main-header picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main-header nav {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+    gap: 1rem;
+}
+#main-header nav a {
+    color: snow;
+    text-decoration: none;
+}
+#main-header form {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+#main-header form button {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main-header form button img {
+    height: 2rem;
+    object-fit: cover;
+}
+
