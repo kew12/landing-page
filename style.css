@@ -1,24 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
     box-sizing: border-box;
 }
-body {
-    background-image: url(SunnyMoo.png);
-    background-size: cover;
-    font-family: Raleway;
+body{
+background-image: url(fondo.jpg);
+background-size: cover;
+background-repeat: no-repeat;
 }
 .texto-logo {
     text-align: center;
     color: white;
     width: 100px;
 }
+
 #main-header {
     background-color: #45562B;
     display: flex;
     align-items: center;
-    height: 8vh;
+    height: 8.3vh;
     padding: 20px 20px;
     position: fixed;
     top: 0;
@@ -26,11 +27,15 @@ body {
     width: 100vw;
     gap: 1rem;
 }
-#main-header picture {
+
+#main-header picture img {
+    padding: 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 5rem;
 }
+
 #main-header nav {
     flex: 1;
     display: flex;
@@ -38,24 +43,103 @@ body {
     padding-right: 5px;
     gap: 1rem;
 }
+#main-header p {
+    font-size: large;
+}
+
 #main-header nav a {
     color: snow;
     text-decoration: none;
 }
+
 #main-header form {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 1rem;
 }
+
 #main-header form button {
     background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 #main-header form button img {
     height: 2rem;
     object-fit: cover;
 }
+.hero {
+    display: flex;
+    width: 100rem;
+    height: 800px;
+    background-color: #f0f0f0;
+    padding: 0px;
+    margin: 140px;
+}
+h1 {
+    font-weight: 100;
+    font-style: normal;
+    color: #D862B0;
+    font-size: 122px;
+    text-align: center;
+    padding: 20px;
+}
+h2 {
+    font-size: 50px;
+    color: #497603;
+    padding: 10px;
+    margin: 21px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    display: center;
+    justify-content: center;
+    margin-right: 1300;
+    text-align: center;
+
+}
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    justify-content: center;
+    font-weight: 300;
+    text-align: center;
+    margin: 40px;
+}
+.boton {
+    font-size: 40px;
+    background-color:#497603;
+    color: antiquewhite;
+    text-decoration: none;
+    width: 200px;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 30px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
+    align-items: center;
+    margin-left: 170px;
+
+}
+.imagen-hero {
+    display: flex;
+} 
+.texto1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 300;
+    width: 160vh;
+    height: 200px;
+    padding: 28px;
+    margin: 80px;
+    }
+
+
 
